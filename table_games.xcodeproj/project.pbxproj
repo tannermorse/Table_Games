@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B7E26307F421CD78CB2581 /* Pods_table_games.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D920D462286429083BFCEC /* Pods_table_games.framework */; };
+		F368E3E525D4CC8B0097089C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368E3E425D4CC8B0097089C /* AppDelegate.swift */; };
+		F368E3E725D4CC8B0097089C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368E3E625D4CC8B0097089C /* SceneDelegate.swift */; };
+		F368E3E925D4CC8B0097089C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368E3E825D4CC8B0097089C /* ViewController.swift */; };
+		F368E3EC25D4CC8B0097089C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368E3EA25D4CC8B0097089C /* Main.storyboard */; };
+		F368E3EE25D4CC8C0097089C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F368E3ED25D4CC8C0097089C /* Assets.xcassets */; };
+		F368E3F125D4CC8C0097089C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368E3EF25D4CC8C0097089C /* LaunchScreen.storyboard */; };
+		F368E3F925D4CEA60097089C /* TapRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368E3F825D4CEA60097089C /* TapRaceView.swift */; };
+		F368E3FB25D4CF3A0097089C /* TapRaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368E3FA25D4CF3A0097089C /* TapRaceViewModel.swift */; };
+		F368E3FD25D4CF820097089C /* TapRaceGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368E3FC25D4CF820097089C /* TapRaceGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0942D32C3D74DEE371AD9871 /* Pods-table_games.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-table_games.release.xcconfig"; path = "Target Support Files/Pods-table_games/Pods-table_games.release.xcconfig"; sourceTree = "<group>"; };
+		0F296C807A47A8C669A8D219 /* Pods-table_games.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-table_games.debug.xcconfig"; path = "Target Support Files/Pods-table_games/Pods-table_games.debug.xcconfig"; sourceTree = "<group>"; };
+		99D920D462286429083BFCEC /* Pods_table_games.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_table_games.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F368E3E125D4CC8B0097089C /* table_games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = table_games.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F368E3E425D4CC8B0097089C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F368E3E625D4CC8B0097089C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F368E3E825D4CC8B0097089C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F368E3EB25D4CC8B0097089C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F368E3ED25D4CC8C0097089C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F368E3F025D4CC8C0097089C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F368E3F225D4CC8C0097089C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F368E3F825D4CEA60097089C /* TapRaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRaceView.swift; sourceTree = "<group>"; };
+		F368E3FA25D4CF3A0097089C /* TapRaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRaceViewModel.swift; sourceTree = "<group>"; };
+		F368E3FC25D4CF820097089C /* TapRaceGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapRaceGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F368E3DE25D4CC8B0097089C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B7E26307F421CD78CB2581 /* Pods_table_games.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DA7865EADA8D0103FB907B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D920D462286429083BFCEC /* Pods_table_games.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2284236E0A6F6BAF5463682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F296C807A47A8C669A8D219 /* Pods-table_games.debug.xcconfig */,
+				0942D32C3D74DEE371AD9871 /* Pods-table_games.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F368E3D825D4CC8B0097089C = {
+			isa = PBXGroup;
+			children = (
+				F368E3E325D4CC8B0097089C /* table_games */,
+				F368E3E225D4CC8B0097089C /* Products */,
+				A2284236E0A6F6BAF5463682 /* Pods */,
+				09DA7865EADA8D0103FB907B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F368E3E225D4CC8B0097089C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F368E3E125D4CC8B0097089C /* table_games.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F368E3E325D4CC8B0097089C /* table_games */ = {
+			isa = PBXGroup;
+			children = (
+				F368E3E425D4CC8B0097089C /* AppDelegate.swift */,
+				F368E3E625D4CC8B0097089C /* SceneDelegate.swift */,
+				F368E3E825D4CC8B0097089C /* ViewController.swift */,
+				F368E3EA25D4CC8B0097089C /* Main.storyboard */,
+				F368E3ED25D4CC8C0097089C /* Assets.xcassets */,
+				F368E3EF25D4CC8C0097089C /* LaunchScreen.storyboard */,
+				F368E3F225D4CC8C0097089C /* Info.plist */,
+				F368E3FE25D4CFE30097089C /* TapRace */,
+			);
+			path = table_games;
+			sourceTree = "<group>";
+		};
+		F368E3FE25D4CFE30097089C /* TapRace */ = {
+			isa = PBXGroup;
+			children = (
+				F368E3F825D4CEA60097089C /* TapRaceView.swift */,
+				F368E3FA25D4CF3A0097089C /* TapRaceViewModel.swift */,
+				F368E3FC25D4CF820097089C /* TapRaceGameViewController.swift */,
+			);
+			path = TapRace;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F368E3E025D4CC8B0097089C /* table_games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F368E3F525D4CC8C0097089C /* Build configuration list for PBXNativeTarget "table_games" */;
+			buildPhases = (
+				A21E418BA499B6C29C800543 /* [CP] Check Pods Manifest.lock */,
+				F368E3DD25D4CC8B0097089C /* Sources */,
+				F368E3DE25D4CC8B0097089C /* Frameworks */,
+				F368E3DF25D4CC8B0097089C /* Resources */,
+				8021DCC9CE13C85F2E23BC57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = table_games;
+			productName = table_games;
+			productReference = F368E3E125D4CC8B0097089C /* table_games.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F368E3D925D4CC8B0097089C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Tanner Morse";
+				TargetAttributes = {
+					F368E3E025D4CC8B0097089C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F368E3DC25D4CC8B0097089C /* Build configuration list for PBXProject "table_games" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F368E3D825D4CC8B0097089C;
+			productRefGroup = F368E3E225D4CC8B0097089C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F368E3E025D4CC8B0097089C /* table_games */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F368E3DF25D4CC8B0097089C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368E3F125D4CC8C0097089C /* LaunchScreen.storyboard in Resources */,
+				F368E3EE25D4CC8C0097089C /* Assets.xcassets in Resources */,
+				F368E3EC25D4CC8B0097089C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8021DCC9CE13C85F2E23BC57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-table_games/Pods-table_games-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-table_games/Pods-table_games-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-table_games/Pods-table_games-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21E418BA499B6C29C800543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-table_games-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F368E3DD25D4CC8B0097089C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368E3E925D4CC8B0097089C /* ViewController.swift in Sources */,
+				F368E3E525D4CC8B0097089C /* AppDelegate.swift in Sources */,
+				F368E3E725D4CC8B0097089C /* SceneDelegate.swift in Sources */,
+				F368E3F925D4CEA60097089C /* TapRaceView.swift in Sources */,
+				F368E3FB25D4CF3A0097089C /* TapRaceViewModel.swift in Sources */,
+				F368E3FD25D4CF820097089C /* TapRaceGameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F368E3EA25D4CC8B0097089C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F368E3EB25D4CC8B0097089C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F368E3EF25D4CC8C0097089C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F368E3F025D4CC8C0097089C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F368E3F325D4CC8C0097089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F368E3F425D4CC8C0097089C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F368E3F625D4CC8C0097089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F296C807A47A8C669A8D219 /* Pods-table_games.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK2K99QN97;
+				INFOPLIST_FILE = table_games/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tanner.table-games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F368E3F725D4CC8C0097089C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0942D32C3D74DEE371AD9871 /* Pods-table_games.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK2K99QN97;
+				INFOPLIST_FILE = table_games/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tanner.table-games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F368E3DC25D4CC8B0097089C /* Build configuration list for PBXProject "table_games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F368E3F325D4CC8C0097089C /* Debug */,
+				F368E3F425D4CC8C0097089C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F368E3F525D4CC8C0097089C /* Build configuration list for PBXNativeTarget "table_games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F368E3F625D4CC8C0097089C /* Debug */,
+				F368E3F725D4CC8C0097089C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F368E3D925D4CC8B0097089C /* Project object */;
+}
